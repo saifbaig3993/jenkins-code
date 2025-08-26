@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('My First Containerized Node second app');
+  res.send('My First Containerized Node second app new');
 });
 
 app.listen(PORT, HOST, () => {
